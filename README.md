@@ -1,5 +1,6 @@
 # My-project
-가위바위보 게임을 통해 스코어 형식으로 점수를 쌓는 게임입니다.
+Project name: rock, scissor, paper game
+team member: Kim Yeshu (22400125)
 
 This project is about an extended rock, scissor, paper game.  
 It aims to allow users to enter their names and play against the computer while collecting points based on wins and draws.  
