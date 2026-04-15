@@ -14,8 +14,7 @@ public class FileManager {
             this.score = score;
         }
     }
-    // 최고 점수 불러오기
-    // return format: "name,score"
+   
     public ScoreData loadScore() {
         try {
             BufferedReader br = new BufferedReader(new FileReader(fileName));
@@ -30,12 +29,11 @@ public class FileManager {
                 return new ScoreData(name, score);
             }
         } catch (Exception e) {
-            // 파일 없으면 null
+
         }
         return null;
     }
 
-    // 최고 점수 저장
     public void saveScore(String name, int score) {
         try {
             BufferedWriter bw = new BufferedWriter(new FileWriter(fileName));
