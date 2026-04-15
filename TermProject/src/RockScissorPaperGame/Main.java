@@ -36,8 +36,7 @@ public class Main {
 	                scoreManager.lose(player);
 	                System.out.println("Remaining life: " + life);
 	            }
-	        }
-	        
+	        }    
 	        System.out.println("\nGame Over!");
 	        System.out.println("Player: " + player.name);
 	        System.out.println("Final Score: " + player.score);
