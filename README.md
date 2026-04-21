@@ -9,3 +9,17 @@ Through this project, we expect to improve our coding skills and understanding o
 
 ## 🎥 Demo Video
 [Watch on YouTube](https://youtu.be/oHkqyKWv8v8)
+
+
+## User's guide
+Enter one of the following:
+rock / paper / scissors
+The computer will randomly choose one.
+The result (win, lose, draw) will be displayed.
+
+if You broke the highest score, You can choose write your score.
+Enter one of the following:
+yes / no
+
+when you game over and you want replay, you can enter this:
+yes
